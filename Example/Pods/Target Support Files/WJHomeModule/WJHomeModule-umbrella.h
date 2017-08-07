@@ -10,7 +10,8 @@
 #endif
 #endif
 
-#import "CTMediator+WJHomeModule.h"
+#import "WJHomeViewController.h"
+#import "Target_Standard.h"
 
 FOUNDATION_EXPORT double WJHomeModuleVersionNumber;
 FOUNDATION_EXPORT const unsigned char WJHomeModuleVersionString[];

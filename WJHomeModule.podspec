@@ -26,21 +26,21 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'CoderLawrence' => '791785648@qq.com' }
   s.source           = { :git => 'https://github.com/CoderLawrence/WJHomeModule.git', :tag => s.version.to_s }
+  s.requires_arc     = true
   s.ios.deployment_target = '8.0'
 
   s.subspec 'Business' do |business|
-    business.source_files = 'WJHomeModule/Classess/Business/*.{h.m}'
-    business.public_header_files = 'WJHomeModule/Classess/Business/*.h'
+    business.source_files = 'WJHomeModule/Classes/Business/*.{h,m}'
+    business.public_header_files = 'WJHomeModule/Classes/Business/*.h'
     business.dependency 'WJBaseComponent'
-    business.frameworks = 'UIKit', 'Foundation'
+    business.frameworks = 'UIKit'
   end
 
-  s.subspec 'Category' do |category|
-    category.source_files = 'WJHomeModule/Classes/Category/*.{h,m}'
-    category.public_header_files = 'WJHomeModule/Classes/Category/*.h'
-    category.dependency 'CTMediator'
-    category.dependency 'WJBaseComponent'
-    category.frameworks = 'UIKit'
+  s.subspec 'TargetAction' do |targetAction|
+    targetAction.source_files = 'WJHomeModule/Classes/TargetAction/*'
+    targetAction.public_header_files = 'WJHomeModule/Classes/TargetAction/*.h'
+    targetAction.dependency 'CTMediator'
+    targetAction.dependency 'WJHomeModule/Business'
   end
 
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'

@@ -7,13 +7,17 @@
 //
 
 #import "WJAppDelegate.h"
-#import "WJHomeViewController.h"
+#import <WJHomeModule/WJHomeViewController.h>
 
 @implementation WJAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    WJHomeViewController *rootVC = [[WJHomeViewController alloc] init];
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = rootVC;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

@@ -10,49 +10,52 @@
 		019B3F821F359E847C7EF7A7DA5E4166 /* Pods-WJHomeModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20682F3C7F07D1DF4AA8CAE80499E286 /* Pods-WJHomeModule_Tests-dummy.m */; };
 		0259199AC40D1935D021866B20AB8227 /* Pods-WJHomeModule_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A4021522ABDC411D34385C1392C5C20 /* Pods-WJHomeModule_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		025A23908383DD6F21EA9B5AE2A04AC5 /* NSDate+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3390DB23E2FA545444B168BF1E86D87C /* NSDate+Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		103A4E46188A78EBDA40B80BA0D2E400 /* WJHomeModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6D7978701F72ADB0B964B0A3817D5B /* WJHomeModule-dummy.m */; };
+		05DD04B69D01583F9D23790722B82E1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C1BCDC411F530C64BDEB05CA87735FE /* Foundation.framework */; };
+		0E6C712BA8B2A5029AA5CFAEFE2EBE64 /* Target_Standard.m in Sources */ = {isa = PBXBuildFile; fileRef = D45CDBDC62C3144766F561459B6D113E /* Target_Standard.m */; };
+		12BF9DF181ACB3FCC4ED53568D02C1FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C1BCDC411F530C64BDEB05CA87735FE /* Foundation.framework */; };
+		145D69C478E673E94FEB1DEF4546DA9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C1BCDC411F530C64BDEB05CA87735FE /* Foundation.framework */; };
 		1830F79489B221034AA8989B2A2BBC82 /* NSJSONSerialization+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = A63A56A2B22977B3EC0A1BC8B8290897 /* NSJSONSerialization+JSON.m */; };
 		1910D521C60C31E0FB5F965B3B83BCEF /* Pods-WJHomeModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C8B4A976E334749169CED3BCCC59B /* Pods-WJHomeModule_Example-dummy.m */; };
 		1A7C00229843CB3A0A87D5D324A4484C /* NSData+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F8DA160EA0355BC7AD2E1D964C5D19 /* NSData+Extensions.m */; };
 		1C4F35092211F226DC56EFD272A292BC /* UINavigationController+FDFullscreenPopGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = E70EF2EC1610784D8318ADF535372335 /* UINavigationController+FDFullscreenPopGesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1CF77D0DC64336DA1CE5C354668522DE /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = E6D634C8FFDA1B5B0C25019CACC897BF /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E9036CEE9644A553B85910B7B17A535 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95188DE8C3FA738C6C50818A9C97670B /* UIKit.framework */; };
 		21BB792BB968742AF08FA938D377ACC4 /* CTMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE34408F48A5F805A195EF0D3100BC5 /* CTMediator-dummy.m */; };
-		23B08EFDB8101CD8ECC0476AB90E8417 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01B7AAB04F3FCE4A92E5280A8B52AD24 /* QuartzCore.framework */; };
-		2647D5D8B0825124B9F1F6489EC1B3A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB3664641BB234821D2DF9E04EE38ACF /* Foundation.framework */; };
 		26EABA351CE0AF617165ECA140936260 /* WJBaseComponent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF95EDF967C30849C8DC12AF496E316 /* WJBaseComponent-dummy.m */; };
 		2BB0B1A9E147296B2CA709A732C0B28D /* Macros.h in Headers */ = {isa = PBXBuildFile; fileRef = 3589D8BC85D0492F333162A3246F7867 /* Macros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2C91F2B6ACC4478657708707DFB33D52 /* WJBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187B9E220124D38B4D8EBC5D1CC4161C /* WJBaseViewController.m */; };
 		2D7397326F6FDBB812E1C1D322E93140 /* NSTimer+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD0C32194F064228EF69D25F93E130F /* NSTimer+Addition.m */; };
+		3081BA75DBA458795B5427F9198A1759 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71AE5218A961B622B2DDABC28368165D /* QuartzCore.framework */; };
 		335B471C2A891A83B06BDCBBDED4A082 /* NotificatonMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 40F79A520946DE4509F4356591A0F074 /* NotificatonMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3A7591BDBC2960DCB9CBC45A46365EB0 /* WJBaseComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C3AD4B54F5A0965873321902FEAE540 /* WJBaseComponent.framework */; };
 		423DFCB8A9223FDB7D703798DECC9CDE /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ACF24C04EB9CEF0C77A90923F9A5361 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4276D9C94B010809216BB2EB1539FA0C /* CTMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B32707BB47BC8774872792061449BA06 /* CTMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4344D93AD2601E1DA18FA469AEE5A882 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 36B68231C40B4704F9C87B2D145D31CD /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4B1C79200919E10E401449395E9ABC8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB3664641BB234821D2DF9E04EE38ACF /* Foundation.framework */; };
 		4BABE34E9D416894C9C54C4C8C18B13A /* Pods-WJHomeModule_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3F08994BF7CB53C486E982B64AAB8B1 /* Pods-WJHomeModule_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4E98496C5FB5E848A53A6B96877498C9 /* CTMediator+WJHomeModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 61200D0F83BC317B4CEC3BC067EB6D3E /* CTMediator+WJHomeModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EE2BE0512B7392A74C1D81F1A9C707C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C1BCDC411F530C64BDEB05CA87735FE /* Foundation.framework */; };
 		57676F875E1957EDC2AC9DE7E7AF968B /* WJNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 277D5E8D9D5737A2532F3E54093AF198 /* WJNavigationViewController.m */; };
-		59D52A25A74504897CB4CD04F06BB72A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BAC6BFBEF92FC1F81F85DDEDE968DEF /* UIKit.framework */; };
+		614D76A7F21DB8D150BA20DCD1EF9BED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C1BCDC411F530C64BDEB05CA87735FE /* Foundation.framework */; };
 		631156B62E17055F7FFB0E4B13CEF015 /* WJBaseComponent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05005DB8BCB6535597D1B7F165AD744A /* WJBaseComponent-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		67186F368BDA1095AD4BAEE257D989B0 /* NSObject+Dictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E98D57482A54A2EE73268967710639C /* NSObject+Dictionary.m */; };
-		68CE1B126A2212E0961CD03089FDE2AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BAC6BFBEF92FC1F81F85DDEDE968DEF /* UIKit.framework */; };
-		69C1BF2D3A3F7F1E1DE21A7AAAD1900B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB3664641BB234821D2DF9E04EE38ACF /* Foundation.framework */; };
 		6ABBAA8FEB075C0DE9D79E21C259FD54 /* APIStringMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 886DE06A45FF9F97FAE46557C4030645 /* APIStringMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7128C7E8B721891E2EE28370AAB1BEEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB3664641BB234821D2DF9E04EE38ACF /* Foundation.framework */; };
+		729FBAFF6EB411B540B3958A0F7FC161 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95188DE8C3FA738C6C50818A9C97670B /* UIKit.framework */; };
 		776702E8743007AC3AFC1E7F76299616 /* FDFullscreenPopGesture-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B8A37155BFA8D37DA4A9E8FC4173EA3 /* FDFullscreenPopGesture-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C7FAA410A51B9F7CCD6D1A435E15502 /* NSObject+Guard.h in Headers */ = {isa = PBXBuildFile; fileRef = F857DC8FDAC07A36081B5E0CA1A2FC4F /* NSObject+Guard.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C806E6EBE711B0E8EA4B23DA6201262 /* NSJSONSerialization+JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 996122880ACC3363AB374B309FECDCFE /* NSJSONSerialization+JSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87768BE8DDC65C036E45F99232D88D33 /* Target_Standard.h in Headers */ = {isa = PBXBuildFile; fileRef = 197A4F8A8E8CB539DACF54DFDB0F9EA0 /* Target_Standard.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		89776C11528C2123A173E05B77346068 /* UIViewController+RunDealloc.h in Headers */ = {isa = PBXBuildFile; fileRef = BC2DD53E57F86BEE7CE6BCECAF4CA4C1 /* UIViewController+RunDealloc.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D5773215C94391518B849E85AA1EC71 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 999853796BD894BE59F8E8EBF093283D /* SVProgressHUD.bundle */; };
-		8EF5FC0809C47AB566275412A1E32E5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB3664641BB234821D2DF9E04EE38ACF /* Foundation.framework */; };
+		90B494CA127147646E890884F981B9C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C1BCDC411F530C64BDEB05CA87735FE /* Foundation.framework */; };
+		91E91E5D94BD440B2338A68FB6E1B45B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95188DE8C3FA738C6C50818A9C97670B /* UIKit.framework */; };
 		9358BB07339367DAEE670EB95B415BE5 /* NSObject+Guard.m in Sources */ = {isa = PBXBuildFile; fileRef = 4694955C39CAA0E4CDE14E10BAB23DC7 /* NSObject+Guard.m */; };
 		9980D1F1A0D1B96EDA265B24BC6B544A /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 363CC7CCF89481FD9845F921A41D7FBB /* CTMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F1AE432D039010A0AA583DD4E682415 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB3664641BB234821D2DF9E04EE38ACF /* Foundation.framework */; };
+		9F0970930AFF28CBF8B431F2907CCFB8 /* WJHomeModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D3E73F5006B85CDCFA0AD6C672EE83 /* WJHomeModule-dummy.m */; };
 		A073029E084DD4BA1CC0A7EE517BDAFE /* DimensMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 0245FB02E30C936B9E1B50211CEB8331 /* DimensMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A776F09948E5D2E04F51E4113F01E51C /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C36EBACC2D606A2094BA9430DB395CC /* SVProgressAnimatedView.m */; };
-		B7AC55A4081CA7DE2A3F979F30FF62E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BAC6BFBEF92FC1F81F85DDEDE968DEF /* UIKit.framework */; };
+		B4547D2E46870B701EF19EC06A3193E6 /* WJHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D47D55918947AB5229DCCCE091137C /* WJHomeViewController.m */; };
 		B84F960E74AE7F8A67099072C643F17F /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E23513EB94B1E243692CECB50301CF /* UINavigationController+FDFullscreenPopGesture.m */; };
 		C014F1CDAFE0B89E3B794EA8A1F595A4 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DC49943754A7B3FBE2BECB95212233 /* SVProgressHUD-dummy.m */; };
+		C0F87F5BBA059DED5F906203DDC75011 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C1BCDC411F530C64BDEB05CA87735FE /* Foundation.framework */; };
 		C765763649B0046D7B174ACB238B90A9 /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AFCCED4A2DCFF74B2AF89DEF7032040A /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C82028402BDB7580E0D8CC26A6B785CA /* UIViewController+RunDealloc.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFAACFA9EEC9878EFE31AF7A3B887C9 /* UIViewController+RunDealloc.m */; };
 		CA64A4789BD687FD7EA2D0195B1313B6 /* NSDate+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C96668C4FC2E419921BBF67B767D1D /* NSDate+Extensions.m */; };
@@ -60,20 +63,19 @@
 		D05981436F2B45017732FEAB6AF57713 /* FDFullscreenPopGesture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C4BEA41D1F13480ACC4CAD895F7EFC3 /* FDFullscreenPopGesture.framework */; };
 		D103C2F19F50801BB557B460184CABFC /* UIImage+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D5CD52ECD6F87D71E984A9E9E98D20 /* UIImage+Extensions.m */; };
 		D378239CE79C976F0B6B441D7BA3146E /* NSTimer+Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = CBFD268F80916A74320A7079B2062410 /* NSTimer+Addition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D38182EC2A12E5F83198DFBCA6C3AF74 /* WJHomeModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2495A9AC1C16C2CA9DA3DCC392A20A81 /* WJHomeModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D51712FBE3C04EA666AF5618FA596200 /* UIImage+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FD1A1DD45A897CE5C3EA256E4976C42 /* UIImage+Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D975B9C55872F3BFDC24F7F01B187153 /* CTMediator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC4B3EC58F3D06CBA4D3239041688C16 /* CTMediator.framework */; };
 		DD9663B10185D4FBEF74DDBF7FF3AF94 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3AA733058B3DF09CB2519C17A43866 /* SVIndefiniteAnimatedView.m */; };
 		DF90B0D703BCCFD08145E2256AB4FEAB /* UtilsMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = BD8DBFB7F39EB1066D89C5427AC185C7 /* UtilsMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E5D9851A41395BD8AA5E356D3E7B174E /* FDFullscreenPopGesture-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 738E1AA90AC9C9610727871503DA3BA5 /* FDFullscreenPopGesture-dummy.m */; };
 		E8DCBDD07D0063D8DFF29204B03F2441 /* WJBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 005BAD94600E04ADA262A7F23514B61E /* WJBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EC6F90677F2E24C25341696BF0F00F9E /* WJHomeModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4092B22C01ADB4560DC716D74C2174AB /* WJHomeModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC9D5FBF65DB8BCB5B615CBD9A28DB8B /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E1FD01C610D1E792247D38C410D8A6 /* CTMediator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		ECF12F830E20FFE65D2C84001106A1AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB3664641BB234821D2DF9E04EE38ACF /* Foundation.framework */; };
 		ED4540EDF16366B5AA1BE981F4246072 /* WJNavigationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 81E36205F29BACEF50D03E00B7930CF0 /* WJNavigationViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EDD6E8EF3F46D55EBF0B69DAB0278ABE /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3474BFD8511189244F639F432806EFE0 /* SVProgressHUD.framework */; };
+		EFFAF37F63EDFB7246C372D5405E13DF /* WJHomeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A5D61C77F0FDECB9E061D7097695D1AD /* WJHomeViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F2020F8F27161BEC6E39E41BDADD6E58 /* NSObject+Dictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = CC006272E4124EA04DBDDC0C02387D79 /* NSObject+Dictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4C89EAACFCAF4B53617E360A3A1E802 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED14AF2C2654B55EB53F712DD72F0A3 /* SVRadialGradientLayer.m */; };
-		F8119D86648ABBFFC800EF692CDAE1C9 /* CTMediator+WJHomeModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 2731CC9E3BCF19FC9C6561DA52B566D9 /* CTMediator+WJHomeModule.m */; };
 		FCBEF4AAB78AF409DB3ED83B8C18CCA2 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 481570FFD52ACABD19E9A185A398CF13 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FFAC6819017C64CD6123BB473A252CC7 /* NSData+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0194AD0215342B79161888BEF0D94FB7 /* NSData+Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -147,28 +149,27 @@
 /* Begin PBXFileReference section */
 		005BAD94600E04ADA262A7F23514B61E /* WJBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WJBaseViewController.h; path = WJBaseComponent/Classes/Base/ViewController/WJBaseViewController.h; sourceTree = "<group>"; };
 		0194AD0215342B79161888BEF0D94FB7 /* NSData+Extensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+Extensions.h"; path = "WJBaseComponent/Classes/Category/NSData+Extensions.h"; sourceTree = "<group>"; };
-		01B7AAB04F3FCE4A92E5280A8B52AD24 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		0245FB02E30C936B9E1B50211CEB8331 /* DimensMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DimensMacros.h; path = WJBaseComponent/Classes/Macros/DimensMacros.h; sourceTree = "<group>"; };
 		05005DB8BCB6535597D1B7F165AD744A /* WJBaseComponent-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WJBaseComponent-umbrella.h"; sourceTree = "<group>"; };
 		0754C1BC71013F10D91B14D6982780A5 /* Pods-WJHomeModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WJHomeModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		091419AF36ACEC634413F33D26B018AC /* Pods-WJHomeModule_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WJHomeModule_Example-resources.sh"; sourceTree = "<group>"; };
 		0E80C4964C36A73931F1E8B10D98A809 /* CTMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CTMediator.modulemap; sourceTree = "<group>"; };
 		0ECEE7826F31052972E1B13AF3625D36 /* Pods-WJHomeModule_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WJHomeModule_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		1099C440342C5D4772EE805AF9323688 /* WJHomeModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WJHomeModule-prefix.pch"; sourceTree = "<group>"; };
+		11BEAB1DE8439E822BECF7CFF24ED705 /* WJHomeModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WJHomeModule.xcconfig; sourceTree = "<group>"; };
 		12F481575969841F7BECD8CE9792A299 /* Pods_WJHomeModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WJHomeModule_Example.framework; path = "Pods-WJHomeModule_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		184C8B4A976E334749169CED3BCCC59B /* Pods-WJHomeModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WJHomeModule_Example-dummy.m"; sourceTree = "<group>"; };
 		187B9E220124D38B4D8EBC5D1CC4161C /* WJBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WJBaseViewController.m; path = WJBaseComponent/Classes/Base/ViewController/WJBaseViewController.m; sourceTree = "<group>"; };
+		197A4F8A8E8CB539DACF54DFDB0F9EA0 /* Target_Standard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Target_Standard.h; sourceTree = "<group>"; };
 		1C36EBACC2D606A2094BA9430DB395CC /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
 		1C47CCDC4D6FCFDB1AB755862BF8E294 /* Pods-WJHomeModule_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WJHomeModule_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1C4BEA41D1F13480ACC4CAD895F7EFC3 /* FDFullscreenPopGesture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FDFullscreenPopGesture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E98D57482A54A2EE73268967710639C /* NSObject+Dictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Dictionary.m"; path = "WJBaseComponent/Classes/Category/NSObject+Dictionary.m"; sourceTree = "<group>"; };
 		20682F3C7F07D1DF4AA8CAE80499E286 /* Pods-WJHomeModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WJHomeModule_Tests-dummy.m"; sourceTree = "<group>"; };
 		2357938131F3F73826CBDD7C8777195D /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
-		2731CC9E3BCF19FC9C6561DA52B566D9 /* CTMediator+WJHomeModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+WJHomeModule.m"; sourceTree = "<group>"; };
+		2495A9AC1C16C2CA9DA3DCC392A20A81 /* WJHomeModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WJHomeModule-umbrella.h"; sourceTree = "<group>"; };
 		277D5E8D9D5737A2532F3E54093AF198 /* WJNavigationViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WJNavigationViewController.m; path = WJBaseComponent/Classes/Base/ViewController/WJNavigationViewController.m; sourceTree = "<group>"; };
 		29603BB63B3F77151E6FEB075D6E8582 /* Pods-WJHomeModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WJHomeModule_Example.modulemap"; sourceTree = "<group>"; };
 		2D328D5A1ABF8FF9675A62C92D9915AA /* CTMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-prefix.pch"; sourceTree = "<group>"; };
-		2DB4936E06DBA3CAB7EB1A1ABDB2346A /* WJHomeModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = WJHomeModule.modulemap; sourceTree = "<group>"; };
 		3390DB23E2FA545444B168BF1E86D87C /* NSDate+Extensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+Extensions.h"; path = "WJBaseComponent/Classes/Category/NSDate+Extensions.h"; sourceTree = "<group>"; };
 		3474BFD8511189244F639F432806EFE0 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3589D8BC85D0492F333162A3246F7867 /* Macros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Macros.h; path = WJBaseComponent/Classes/Macros/Macros.h; sourceTree = "<group>"; };
@@ -176,48 +177,51 @@
 		36B68231C40B4704F9C87B2D145D31CD /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
 		3A7DAC8304124E98191A95F7B0AE144E /* WJBaseComponent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WJBaseComponent.framework; path = WJBaseComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F0AEB17CFAC01098CA68C371F55074C /* Pods-WJHomeModule_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WJHomeModule_Example-frameworks.sh"; sourceTree = "<group>"; };
-		4092B22C01ADB4560DC716D74C2174AB /* WJHomeModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WJHomeModule-umbrella.h"; sourceTree = "<group>"; };
 		40F79A520946DE4509F4356591A0F074 /* NotificatonMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificatonMacros.h; path = WJBaseComponent/Classes/Macros/NotificatonMacros.h; sourceTree = "<group>"; };
 		4694955C39CAA0E4CDE14E10BAB23DC7 /* NSObject+Guard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Guard.m"; path = "WJBaseComponent/Classes/Category/NSObject+Guard.m"; sourceTree = "<group>"; };
 		481570FFD52ACABD19E9A185A398CF13 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
 		48C273F41272778487E5942401D6A79F /* Pods-WJHomeModule_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WJHomeModule_Tests-resources.sh"; sourceTree = "<group>"; };
 		48E23513EB94B1E243692CECB50301CF /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+FDFullscreenPopGesture.m"; path = "FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
 		4B362ACE7D8D2C50DA722F4D4BAD8FFC /* Pods-WJHomeModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WJHomeModule_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4BAC6BFBEF92FC1F81F85DDEDE968DEF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		4C081933721FB1EB8C14EC9CAE114A21 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5607A69C242EA5B6467367262C83BFF0 /* WJBaseComponent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = WJBaseComponent.modulemap; sourceTree = "<group>"; };
 		57E1FD01C610D1E792247D38C410D8A6 /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = CTMediator/CTMediator/CTMediator.m; sourceTree = "<group>"; };
 		5AE34408F48A5F805A195EF0D3100BC5 /* CTMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator-dummy.m"; sourceTree = "<group>"; };
 		5B8A37155BFA8D37DA4A9E8FC4173EA3 /* FDFullscreenPopGesture-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FDFullscreenPopGesture-umbrella.h"; sourceTree = "<group>"; };
-		61200D0F83BC317B4CEC3BC067EB6D3E /* CTMediator+WJHomeModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator+WJHomeModule.h"; sourceTree = "<group>"; };
 		65240B2E8DF72B5229DEBBF8406501FF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65551D8216A77C47477382A02DD27691 /* Pods-WJHomeModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WJHomeModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		68D7B2F0666FDF784EAA7B03E1616F7C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C1BCDC411F530C64BDEB05CA87735FE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6ED14AF2C2654B55EB53F712DD72F0A3 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
 		6FD1A1DD45A897CE5C3EA256E4976C42 /* UIImage+Extensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Extensions.h"; path = "WJBaseComponent/Classes/Category/UIImage+Extensions.h"; sourceTree = "<group>"; };
+		71AE5218A961B622B2DDABC28368165D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		738E1AA90AC9C9610727871503DA3BA5 /* FDFullscreenPopGesture-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FDFullscreenPopGesture-dummy.m"; sourceTree = "<group>"; };
 		7C3AD4B54F5A0965873321902FEAE540 /* WJBaseComponent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WJBaseComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C4844CA00AC741C0C2609DB84B7EA67 /* WJBaseComponent.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WJBaseComponent.xcconfig; sourceTree = "<group>"; };
+		7D1AF53BF92078E2A6953FD566CC42BE /* WJHomeModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WJHomeModule-prefix.pch"; sourceTree = "<group>"; };
 		7D60C215E40AF5402E0A182BC142A408 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
 		7FFAACFA9EEC9878EFE31AF7A3B887C9 /* UIViewController+RunDealloc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+RunDealloc.m"; path = "WJBaseComponent/Classes/Category/UIViewController+RunDealloc.m"; sourceTree = "<group>"; };
+		80D3E73F5006B85CDCFA0AD6C672EE83 /* WJHomeModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WJHomeModule-dummy.m"; sourceTree = "<group>"; };
 		81E36205F29BACEF50D03E00B7930CF0 /* WJNavigationViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WJNavigationViewController.h; path = WJBaseComponent/Classes/Base/ViewController/WJNavigationViewController.h; sourceTree = "<group>"; };
 		886DE06A45FF9F97FAE46557C4030645 /* APIStringMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APIStringMacros.h; path = WJBaseComponent/Classes/Macros/APIStringMacros.h; sourceTree = "<group>"; };
 		8A4021522ABDC411D34385C1392C5C20 /* Pods-WJHomeModule_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WJHomeModule_Tests-umbrella.h"; sourceTree = "<group>"; };
 		8ACF24C04EB9CEF0C77A90923F9A5361 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		8E15BDA8C42B841D1FC00FB5C243E6D0 /* WJHomeModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = WJHomeModule.modulemap; sourceTree = "<group>"; };
 		8E15EC28FBDC8569D3D53DDADA70498A /* FDFullscreenPopGesture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FDFullscreenPopGesture.framework; path = FDFullscreenPopGesture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E95B01415750C56D656D8CACFAC92EA /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
-		8F6D7978701F72ADB0B964B0A3817D5B /* WJHomeModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WJHomeModule-dummy.m"; sourceTree = "<group>"; };
 		9035E71ACADC554510AD50AB3B029ED5 /* FDFullscreenPopGesture.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FDFullscreenPopGesture.xcconfig; sourceTree = "<group>"; };
+		90D47D55918947AB5229DCCCE091137C /* WJHomeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WJHomeViewController.m; sourceTree = "<group>"; };
 		91E5E829AB3EB9DE6964A7AF0D0F3AAD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95188DE8C3FA738C6C50818A9C97670B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		996122880ACC3363AB374B309FECDCFE /* NSJSONSerialization+JSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSJSONSerialization+JSON.h"; path = "WJBaseComponent/Classes/Category/NSJSONSerialization+JSON.h"; sourceTree = "<group>"; };
 		999853796BD894BE59F8E8EBF093283D /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
 		9B361EC02E54B6217947EAFCB3B2734D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C7F206A58A819341908CF2EC188A335 /* Pods-WJHomeModule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WJHomeModule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D01F8E6D9F8B06C6CEE1A8BE1C16A63 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9DDA6C48EECFD2BD9C2485F2406B3190 /* WJHomeModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WJHomeModule.xcconfig; sourceTree = "<group>"; };
 		9F5DF34FCA9C6A98D5E513AAFBF8FC34 /* Pods-WJHomeModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WJHomeModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A0DC49943754A7B3FBE2BECB95212233 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		A3F08994BF7CB53C486E982B64AAB8B1 /* Pods-WJHomeModule_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WJHomeModule_Example-umbrella.h"; sourceTree = "<group>"; };
+		A5D61C77F0FDECB9E061D7097695D1AD /* WJHomeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WJHomeViewController.h; sourceTree = "<group>"; };
 		A63A56A2B22977B3EC0A1BC8B8290897 /* NSJSONSerialization+JSON.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSJSONSerialization+JSON.m"; path = "WJBaseComponent/Classes/Category/NSJSONSerialization+JSON.m"; sourceTree = "<group>"; };
 		A7E3FBEE59E6713CADD7347532AA3415 /* WJHomeModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WJHomeModule.framework; path = WJHomeModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF6C521110F736B6FEB077337FF884A8 /* Pods-WJHomeModule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WJHomeModule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -237,12 +241,12 @@
 		CCF95EDF967C30849C8DC12AF496E316 /* WJBaseComponent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WJBaseComponent-dummy.m"; sourceTree = "<group>"; };
 		CD3A17EEE59B9E53BF0F587863915A22 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CTMediator.framework; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF3AF9A4A9186DF80B78DFB45F345961 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D45CDBDC62C3144766F561459B6D113E /* Target_Standard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Target_Standard.m; sourceTree = "<group>"; };
 		D584414974A6306E450AB2720F78716A /* WJBaseComponent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WJBaseComponent-prefix.pch"; sourceTree = "<group>"; };
 		D6AFEBBFC00FAFDA8C82ED351C2EA2DB /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVProgressHUD.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6D634C8FFDA1B5B0C25019CACC897BF /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
 		E70EF2EC1610784D8318ADF535372335 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+FDFullscreenPopGesture.h"; path = "FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
 		E710921751D07DAF92D66BE7286D5B7E /* FDFullscreenPopGesture-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FDFullscreenPopGesture-prefix.pch"; sourceTree = "<group>"; };
-		EB3664641BB234821D2DF9E04EE38ACF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		EDADD3760846B1BED8AEF1E2210B7954 /* Pods-WJHomeModule_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WJHomeModule_Tests.modulemap"; sourceTree = "<group>"; };
 		F2D5CD52ECD6F87D71E984A9E9E98D20 /* UIImage+Extensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Extensions.m"; path = "WJBaseComponent/Classes/Category/UIImage+Extensions.m"; sourceTree = "<group>"; };
 		F857DC8FDAC07A36081B5E0CA1A2FC4F /* NSObject+Guard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Guard.h"; path = "WJBaseComponent/Classes/Category/NSObject+Guard.h"; sourceTree = "<group>"; };
@@ -257,7 +261,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69C1BF2D3A3F7F1E1DE21A7AAAD1900B /* Foundation.framework in Frameworks */,
+				90B494CA127147646E890884F981B9C1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,9 +270,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D05981436F2B45017732FEAB6AF57713 /* FDFullscreenPopGesture.framework in Frameworks */,
-				4B1C79200919E10E401449395E9ABC8C /* Foundation.framework in Frameworks */,
+				145D69C478E673E94FEB1DEF4546DA9E /* Foundation.framework in Frameworks */,
 				EDD6E8EF3F46D55EBF0B69DAB0278ABE /* SVProgressHUD.framework in Frameworks */,
-				59D52A25A74504897CB4CD04F06BB72A /* UIKit.framework in Frameworks */,
+				1E9036CEE9644A553B85910B7B17A535 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +280,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EF5FC0809C47AB566275412A1E32E5B /* Foundation.framework in Frameworks */,
+				4EE2BE0512B7392A74C1D81F1A9C707C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,8 +288,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECF12F830E20FFE65D2C84001106A1AA /* Foundation.framework in Frameworks */,
-				23B08EFDB8101CD8ECC0476AB90E8417 /* QuartzCore.framework in Frameworks */,
+				614D76A7F21DB8D150BA20DCD1EF9BED /* Foundation.framework in Frameworks */,
+				3081BA75DBA458795B5427F9198A1759 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,8 +297,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F1AE432D039010A0AA583DD4E682415 /* Foundation.framework in Frameworks */,
-				B7AC55A4081CA7DE2A3F979F30FF62E1 /* UIKit.framework in Frameworks */,
+				05DD04B69D01583F9D23790722B82E1D /* Foundation.framework in Frameworks */,
+				91E91E5D94BD440B2338A68FB6E1B45B /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,7 +306,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7128C7E8B721891E2EE28370AAB1BEEB /* Foundation.framework in Frameworks */,
+				C0F87F5BBA059DED5F906203DDC75011 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,8 +315,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D975B9C55872F3BFDC24F7F01B187153 /* CTMediator.framework in Frameworks */,
-				2647D5D8B0825124B9F1F6489EC1B3A2 /* Foundation.framework in Frameworks */,
-				68CE1B126A2212E0961CD03089FDE2AE /* UIKit.framework in Frameworks */,
+				12BF9DF181ACB3FCC4ED53568D02C1FC /* Foundation.framework in Frameworks */,
+				729FBAFF6EB411B540B3958A0F7FC161 /* UIKit.framework in Frameworks */,
 				3A7591BDBC2960DCB9CBC45A46365EB0 /* WJBaseComponent.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,22 +324,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		09336D4606A554BDFD3332C34471876D /* Development Pods */ = {
+		140EBFDF21DBB4D193068D70905D6144 /* WJHomeModule */ = {
 			isa = PBXGroup;
 			children = (
-				DD34C9FF46102286B737B290408BDEDA /* WJHomeModule */,
+				EA13E4EEABF1CA025D8E26BBC06812EF /* Classes */,
 			);
-			name = "Development Pods";
+			name = WJHomeModule;
+			path = WJHomeModule;
 			sourceTree = "<group>";
 		};
-		18E4B9E95469E779A5FC14E01DAAE218 /* Category */ = {
+		14BF5356EE0D5D7C2CA447F4E4D4C515 /* Business */ = {
 			isa = PBXGroup;
 			children = (
-				61200D0F83BC317B4CEC3BC067EB6D3E /* CTMediator+WJHomeModule.h */,
-				2731CC9E3BCF19FC9C6561DA52B566D9 /* CTMediator+WJHomeModule.m */,
+				A5D61C77F0FDECB9E061D7097695D1AD /* WJHomeViewController.h */,
+				90D47D55918947AB5229DCCCE091137C /* WJHomeViewController.m */,
 			);
-			name = Category;
-			path = Category;
+			name = Business;
+			path = Business;
 			sourceTree = "<group>";
 		};
 		1BF4D4AE492C14A91E04BE67A0B717D2 /* Pods */ = {
@@ -347,6 +352,23 @@
 				5D5FCA3FCAC90DCF3D55838D28B8375B /* WJBaseComponent */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		208CB69FD50BEE3DE464716EE90A83EA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				14BF5356EE0D5D7C2CA447F4E4D4C515 /* Business */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		20B532545DCB28A40416834774A20C2E /* TargetAction */ = {
+			isa = PBXGroup;
+			children = (
+				140EBFDF21DBB4D193068D70905D6144 /* WJHomeModule */,
+			);
+			name = TargetAction;
 			sourceTree = "<group>";
 		};
 		2476FC7F8072E060FA920D4CD01488C8 /* Category */ = {
@@ -372,13 +394,18 @@
 			name = Category;
 			sourceTree = "<group>";
 		};
-		296705C172E999B3FA173CF7C355354B /* WJHomeModule */ = {
+		2E54EBE6963A6DA5396AE248842CE2A8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3967E2405DFB5B4BDD9820CC9D190286 /* Classes */,
+				68D7B2F0666FDF784EAA7B03E1616F7C /* Info.plist */,
+				8E15BDA8C42B841D1FC00FB5C243E6D0 /* WJHomeModule.modulemap */,
+				11BEAB1DE8439E822BECF7CFF24ED705 /* WJHomeModule.xcconfig */,
+				80D3E73F5006B85CDCFA0AD6C672EE83 /* WJHomeModule-dummy.m */,
+				7D1AF53BF92078E2A6953FD566CC42BE /* WJHomeModule-prefix.pch */,
+				2495A9AC1C16C2CA9DA3DCC392A20A81 /* WJHomeModule-umbrella.h */,
 			);
-			name = WJHomeModule;
-			path = WJHomeModule;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WJHomeModule";
 			sourceTree = "<group>";
 		};
 		30A329685542B941EE17F40437C78ACE /* Pods-WJHomeModule_Example */ = {
@@ -399,13 +426,14 @@
 			path = "Target Support Files/Pods-WJHomeModule_Example";
 			sourceTree = "<group>";
 		};
-		3967E2405DFB5B4BDD9820CC9D190286 /* Classes */ = {
+		343D0675E57769C8CA259B9225A9BB55 /* TargetAction */ = {
 			isa = PBXGroup;
 			children = (
-				18E4B9E95469E779A5FC14E01DAAE218 /* Category */,
+				197A4F8A8E8CB539DACF54DFDB0F9EA0 /* Target_Standard.h */,
+				D45CDBDC62C3144766F561459B6D113E /* Target_Standard.m */,
 			);
-			name = Classes;
-			path = Classes;
+			name = TargetAction;
+			path = TargetAction;
 			sourceTree = "<group>";
 		};
 		431B492B0656BEF1C04E1129ED4EDF0A /* CTMediator */ = {
@@ -500,7 +528,7 @@
 				1C4BEA41D1F13480ACC4CAD895F7EFC3 /* FDFullscreenPopGesture.framework */,
 				3474BFD8511189244F639F432806EFE0 /* SVProgressHUD.framework */,
 				7C3AD4B54F5A0965873321902FEAE540 /* WJBaseComponent.framework */,
-				E74763B8FE6B795444C81D37CB651058 /* iOS */,
+				8BEA4211D41D9CD25ABC343C7F1A0CD2 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -523,7 +551,7 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				09336D4606A554BDFD3332C34471876D /* Development Pods */,
+				F91594D6D8CF08D2C12B978B5ABC9D01 /* Development Pods */,
 				7B099CC40F2D77618658E954D419D641 /* Frameworks */,
 				1BF4D4AE492C14A91E04BE67A0B717D2 /* Pods */,
 				51DCBFB7C8A605AC935B0F69F651EA73 /* Products */,
@@ -540,6 +568,16 @@
 				277D5E8D9D5737A2532F3E54093AF198 /* WJNavigationViewController.m */,
 			);
 			name = ViewController;
+			sourceTree = "<group>";
+		};
+		8BEA4211D41D9CD25ABC343C7F1A0CD2 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6C1BCDC411F530C64BDEB05CA87735FE /* Foundation.framework */,
+				71AE5218A961B622B2DDABC28368165D /* QuartzCore.framework */,
+				95188DE8C3FA738C6C50818A9C97670B /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		8C79FACEE4DEA85CA4271113C07875E5 /* Resources */ = {
@@ -568,6 +606,34 @@
 			path = "Target Support Files/Pods-WJHomeModule_Tests";
 			sourceTree = "<group>";
 		};
+		A61D188F0908DA6B0236067DD3E6D901 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				A9171F7B73F2AD220AAE57FB3DD57DDF /* WJHomeModule */,
+			);
+			name = Business;
+			sourceTree = "<group>";
+		};
+		A7E20493491C17F662BB77D153FD5DA0 /* WJHomeModule */ = {
+			isa = PBXGroup;
+			children = (
+				A61D188F0908DA6B0236067DD3E6D901 /* Business */,
+				2E54EBE6963A6DA5396AE248842CE2A8 /* Support Files */,
+				20B532545DCB28A40416834774A20C2E /* TargetAction */,
+			);
+			name = WJHomeModule;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A9171F7B73F2AD220AAE57FB3DD57DDF /* WJHomeModule */ = {
+			isa = PBXGroup;
+			children = (
+				208CB69FD50BEE3DE464716EE90A83EA /* Classes */,
+			);
+			name = WJHomeModule;
+			path = WJHomeModule;
+			sourceTree = "<group>";
+		};
 		B16DB6E75BE08087A2D0D73C278E6384 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -575,20 +641,6 @@
 				9D6402985402D06989D3276BA7F27628 /* Pods-WJHomeModule_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		C77C7A169488959A6CD3B27D129C0DEE /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9D01F8E6D9F8B06C6CEE1A8BE1C16A63 /* Info.plist */,
-				2DB4936E06DBA3CAB7EB1A1ABDB2346A /* WJHomeModule.modulemap */,
-				9DDA6C48EECFD2BD9C2485F2406B3190 /* WJHomeModule.xcconfig */,
-				8F6D7978701F72ADB0B964B0A3817D5B /* WJHomeModule-dummy.m */,
-				1099C440342C5D4772EE805AF9323688 /* WJHomeModule-prefix.pch */,
-				4092B22C01ADB4560DC716D74C2174AB /* WJHomeModule-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WJHomeModule";
 			sourceTree = "<group>";
 		};
 		CB5903D05ABC9F34402429F3F38B9305 /* Support Files */ = {
@@ -605,34 +657,6 @@
 			path = "../Target Support Files/SVProgressHUD";
 			sourceTree = "<group>";
 		};
-		CE10594234243CFE25704E850EC6BA57 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				296705C172E999B3FA173CF7C355354B /* WJHomeModule */,
-			);
-			name = Category;
-			sourceTree = "<group>";
-		};
-		DD34C9FF46102286B737B290408BDEDA /* WJHomeModule */ = {
-			isa = PBXGroup;
-			children = (
-				CE10594234243CFE25704E850EC6BA57 /* Category */,
-				C77C7A169488959A6CD3B27D129C0DEE /* Support Files */,
-			);
-			name = WJHomeModule;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		E74763B8FE6B795444C81D37CB651058 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				EB3664641BB234821D2DF9E04EE38ACF /* Foundation.framework */,
-				01B7AAB04F3FCE4A92E5280A8B52AD24 /* QuartzCore.framework */,
-				4BAC6BFBEF92FC1F81F85DDEDE968DEF /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		E939312FDAD6B9545EDBDCBA0BBEF1DF /* FDFullscreenPopGesture */ = {
 			isa = PBXGroup;
 			children = (
@@ -642,6 +666,23 @@
 			);
 			name = FDFullscreenPopGesture;
 			path = FDFullscreenPopGesture;
+			sourceTree = "<group>";
+		};
+		EA13E4EEABF1CA025D8E26BBC06812EF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				343D0675E57769C8CA259B9225A9BB55 /* TargetAction */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F91594D6D8CF08D2C12B978B5ABC9D01 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7E20493491C17F662BB77D153FD5DA0 /* WJHomeModule */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		FC58F041235322566745204C129E7394 /* SVProgressHUD */ = {
@@ -682,21 +723,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		05CE2C10C8220C19F161462A97375C6E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87768BE8DDC65C036E45F99232D88D33 /* Target_Standard.h in Headers */,
+				D38182EC2A12E5F83198DFBCA6C3AF74 /* WJHomeModule-umbrella.h in Headers */,
+				EFFAF37F63EDFB7246C372D5405E13DF /* WJHomeViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1AEDF980BC5399B33C9620D5078BA0D3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				776702E8743007AC3AFC1E7F76299616 /* FDFullscreenPopGesture-umbrella.h in Headers */,
 				1C4F35092211F226DC56EFD272A292BC /* UINavigationController+FDFullscreenPopGesture.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		547EE62B9B33541CB26FB078409E184D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4E98496C5FB5E848A53A6B96877498C9 /* CTMediator+WJHomeModule.h in Headers */,
-				EC6F90677F2E24C25341696BF0F00F9E /* WJHomeModule-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -807,9 +849,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1AB57CDA95B030B756F075425129D876 /* Build configuration list for PBXNativeTarget "WJHomeModule" */;
 			buildPhases = (
-				95E3F99570D4C979DF6C2F67D01E85BD /* Sources */,
+				F53A3715A26F47F9D75100320508485E /* Sources */,
 				E1AF41F44B3D335434400D59A8D8F3E9 /* Frameworks */,
-				547EE62B9B33541CB26FB078409E184D /* Headers */,
+				05CE2C10C8220C19F161462A97375C6E /* Headers */,
 			);
 			buildRules = (
 			);
@@ -881,7 +923,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -948,15 +990,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		95E3F99570D4C979DF6C2F67D01E85BD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F8119D86648ABBFFC800EF692CDAE1C9 /* CTMediator+WJHomeModule.m in Sources */,
-				103A4E46188A78EBDA40B80BA0D2E400 /* WJHomeModule-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A96F352CB10846E719FB2CE20ECAD130 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -989,6 +1022,16 @@
 				26EABA351CE0AF617165ECA140936260 /* WJBaseComponent-dummy.m in Sources */,
 				2C91F2B6ACC4478657708707DFB33D52 /* WJBaseViewController.m in Sources */,
 				57676F875E1957EDC2AC9DE7E7AF968B /* WJNavigationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F53A3715A26F47F9D75100320508485E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E6C712BA8B2A5029AA5CFAEFE2EBE64 /* Target_Standard.m in Sources */,
+				9F0970930AFF28CBF8B431F2907CCFB8 /* WJHomeModule-dummy.m in Sources */,
+				B4547D2E46870B701EF19EC06A3193E6 /* WJHomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1052,79 +1095,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		10BBCFD1183DAFF7FA3FAEE463637C08 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E95B01415750C56D656D8CACFAC92EA /* SVProgressHUD.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SVProgressHUD;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		11A2243C9E8893774EAD3CF9CD7FE0F9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B362ACE7D8D2C50DA722F4D4BAD8FFC /* Pods-WJHomeModule_Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-WJHomeModule_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WJHomeModule_Example/Pods-WJHomeModule_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_WJHomeModule_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		1684463CE8E0A227C9EC6E33F0A9A07E /* Release */ = {
+		07FA823CCE0CF44A39A5C2301C4C1609 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9035E71ACADC554510AD50AB3B029ED5 /* FDFullscreenPopGesture.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1152,11 +1126,275 @@
 			};
 			name = Release;
 		};
-		28EAE2AF1E5688D5D7CC56C3D9A891AA /* Debug */ = {
+		1794F936117A41012AFB45A620E9EA79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9035E71ACADC554510AD50AB3B029ED5 /* FDFullscreenPopGesture.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FDFullscreenPopGesture/FDFullscreenPopGesture-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FDFullscreenPopGesture/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FDFullscreenPopGesture/FDFullscreenPopGesture.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FDFullscreenPopGesture;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3AB3659722159F82EC4BEC907BC72B8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C4844CA00AC741C0C2609DB84B7EA67 /* WJBaseComponent.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WJBaseComponent/WJBaseComponent-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WJBaseComponent/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WJBaseComponent/WJBaseComponent.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = WJBaseComponent;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		80372F0442979DD8890F33DE9BB684C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11BEAB1DE8439E822BECF7CFF24ED705 /* WJHomeModule.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WJHomeModule/WJHomeModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WJHomeModule/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WJHomeModule/WJHomeModule.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = WJHomeModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		81453BD73B8C84CB1658F5D6A8A88378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11BEAB1DE8439E822BECF7CFF24ED705 /* WJHomeModule.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WJHomeModule/WJHomeModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WJHomeModule/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WJHomeModule/WJHomeModule.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = WJHomeModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		855B690A08585D2194A186879F530E95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65551D8216A77C47477382A02DD27691 /* Pods-WJHomeModule_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WJHomeModule_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WJHomeModule_Tests/Pods-WJHomeModule_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WJHomeModule_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		886D1791B51556459D06C332C927ECF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6B5B05840862224E5299AC87677BB5B /* CTMediator.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CTMediator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CTMediator/CTMediator.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CTMediator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DFAD313C945B572943DBAD6BD33C3A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F5DF34FCA9C6A98D5E513AAFBF8FC34 /* Pods-WJHomeModule_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WJHomeModule_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WJHomeModule_Tests/Pods-WJHomeModule_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WJHomeModule_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F3F92AB1CEC499BE6B05C3964EA0F60 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FA88151DFE97B08C32374DA62E902E73 /* Pods-WJHomeModule_Example.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1188,12 +1426,42 @@
 			};
 			name = Debug;
 		};
-		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+		95C3C396B13D06DFD5AF2DD6AEF07B5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E95B01415750C56D656D8CACFAC92EA /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -1201,13 +1469,10 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
@@ -1236,84 +1501,15 @@
 			};
 			name = Debug;
 		};
-		36119643397DAD700DE2D1ACC0282B6F /* Debug */ = {
+		B18E411B93D1F32E29487B6FE5F473B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9035E71ACADC554510AD50AB3B029ED5 /* FDFullscreenPopGesture.xcconfig */;
+			baseConfigurationReference = 7C4844CA00AC741C0C2609DB84B7EA67 /* WJBaseComponent.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FDFullscreenPopGesture/FDFullscreenPopGesture-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FDFullscreenPopGesture/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FDFullscreenPopGesture/FDFullscreenPopGesture.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = FDFullscreenPopGesture;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4308B5D7EB41FB9887201362978BDFAC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F5DF34FCA9C6A98D5E513AAFBF8FC34 /* Pods-WJHomeModule_Tests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-WJHomeModule_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WJHomeModule_Tests/Pods-WJHomeModule_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_WJHomeModule_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		454910592238DA1B73F8553EC4E8B5ED /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7C4844CA00AC741C0C2609DB84B7EA67 /* WJBaseComponent.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -1326,7 +1522,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/WJBaseComponent/WJBaseComponent.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = WJBaseComponent;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1334,77 +1530,12 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
-		};
-		4ED1BFFA1DD784E751562C8FB7433542 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B6B5B05840862224E5299AC87677BB5B /* CTMediator.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CTMediator/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CTMediator/CTMediator.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = CTMediator;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
 			name = Debug;
 		};
-		516EE97A3842631B77666BE2340400A2 /* Debug */ = {
+		D6EAED3547532204F6BBE7AF19D6238C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9DDA6C48EECFD2BD9C2485F2406B3190 /* WJHomeModule.xcconfig */;
+			baseConfigurationReference = 4B362ACE7D8D2C50DA722F4D4BAD8FFC /* Pods-WJHomeModule_Example.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/WJHomeModule/WJHomeModule-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WJHomeModule/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WJHomeModule/WJHomeModule.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = WJHomeModule;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		53DAECB8EA7A087CB0DC9FC92E5A0793 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9DDA6C48EECFD2BD9C2485F2406B3190 /* WJHomeModule.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1416,108 +1547,35 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/WJHomeModule/WJHomeModule-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WJHomeModule/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-WJHomeModule_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WJHomeModule/WJHomeModule.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = WJHomeModule;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		62CD746B74415CF779A5659FA12049F0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B6B5B05840862224E5299AC87677BB5B /* CTMediator.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CTMediator/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CTMediator/CTMediator.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = CTMediator;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WJHomeModule_Example/Pods-WJHomeModule_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WJHomeModule_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		718EB1BB2E8AA15CD42364994EA9DE65 /* Release */ = {
+		D9B229F774C90DFC75E99D0C72D4FBE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8E95B01415750C56D656D8CACFAC92EA /* SVProgressHUD.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -1530,44 +1588,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SVProgressHUD;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8F59599DF285BF0C05586AC78F5E6DF6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65551D8216A77C47477382A02DD27691 /* Pods-WJHomeModule_Tests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-WJHomeModule_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WJHomeModule_Tests/Pods-WJHomeModule_Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_WJHomeModule_Tests;
+				PRODUCT_NAME = SVProgressHUD;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1576,11 +1598,10 @@
 			};
 			name = Debug;
 		};
-		FA2391AA76CC5C653E42C1EFCB1FC3D5 /* Debug */ = {
+		F120539EBFE736A95FE36438B80D2F0C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7C4844CA00AC741C0C2609DB84B7EA67 /* WJBaseComponent.xcconfig */;
+			baseConfigurationReference = B6B5B05840862224E5299AC87677BB5B /* CTMediator.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1592,14 +1613,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/WJBaseComponent/WJBaseComponent-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WJBaseComponent/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CTMediator/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WJBaseComponent/WJBaseComponent.modulemap";
+				MODULEMAP_FILE = "Target Support Files/CTMediator/CTMediator.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = WJBaseComponent;
+				PRODUCT_NAME = CTMediator;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1614,8 +1635,8 @@
 		1AB57CDA95B030B756F075425129D876 /* Build configuration list for PBXNativeTarget "WJHomeModule" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				516EE97A3842631B77666BE2340400A2 /* Debug */,
-				53DAECB8EA7A087CB0DC9FC92E5A0793 /* Release */,
+				80372F0442979DD8890F33DE9BB684C0 /* Debug */,
+				81453BD73B8C84CB1658F5D6A8A88378 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1623,8 +1644,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
-				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1632,8 +1653,8 @@
 		404F7EB5C0136CDDE3194542723E2E7C /* Build configuration list for PBXNativeTarget "FDFullscreenPopGesture" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				36119643397DAD700DE2D1ACC0282B6F /* Debug */,
-				1684463CE8E0A227C9EC6E33F0A9A07E /* Release */,
+				1794F936117A41012AFB45A620E9EA79 /* Debug */,
+				07FA823CCE0CF44A39A5C2301C4C1609 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1641,8 +1662,8 @@
 		47A8E470538833D518D3D71EDEE3F94E /* Build configuration list for PBXNativeTarget "WJBaseComponent" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FA2391AA76CC5C653E42C1EFCB1FC3D5 /* Debug */,
-				454910592238DA1B73F8553EC4E8B5ED /* Release */,
+				B18E411B93D1F32E29487B6FE5F473B4 /* Debug */,
+				3AB3659722159F82EC4BEC907BC72B8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1650,8 +1671,8 @@
 		67A7DBAB793AE14E5B11F08DE3A08B40 /* Build configuration list for PBXNativeTarget "CTMediator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4ED1BFFA1DD784E751562C8FB7433542 /* Debug */,
-				62CD746B74415CF779A5659FA12049F0 /* Release */,
+				F120539EBFE736A95FE36438B80D2F0C /* Debug */,
+				886D1791B51556459D06C332C927ECF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1659,8 +1680,8 @@
 		6FE5DD03427E9ED90A7234EB6F5CF9D7 /* Build configuration list for PBXNativeTarget "Pods-WJHomeModule_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				28EAE2AF1E5688D5D7CC56C3D9A891AA /* Debug */,
-				11A2243C9E8893774EAD3CF9CD7FE0F9 /* Release */,
+				8F3F92AB1CEC499BE6B05C3964EA0F60 /* Debug */,
+				D6EAED3547532204F6BBE7AF19D6238C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1668,8 +1689,8 @@
 		825D703F9DBB64E5CB19E85404C5BCDD /* Build configuration list for PBXNativeTarget "Pods-WJHomeModule_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8F59599DF285BF0C05586AC78F5E6DF6 /* Debug */,
-				4308B5D7EB41FB9887201362978BDFAC /* Release */,
+				855B690A08585D2194A186879F530E95 /* Debug */,
+				8DFAD313C945B572943DBAD6BD33C3A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1677,8 +1698,8 @@
 		F841025F2F3429C72673566CD923381B /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				10BBCFD1183DAFF7FA3FAEE463637C08 /* Debug */,
-				718EB1BB2E8AA15CD42364994EA9DE65 /* Release */,
+				D9B229F774C90DFC75E99D0C72D4FBE5 /* Debug */,
+				95C3C396B13D06DFD5AF2DD6AEF07B5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

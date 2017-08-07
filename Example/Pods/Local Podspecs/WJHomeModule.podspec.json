@@ -15,32 +15,29 @@
     "git": "https://github.com/CoderLawrence/WJHomeModule.git",
     "tag": "0.1.0"
   },
+  "requires_arc": true,
   "platforms": {
     "ios": "8.0"
   },
   "subspecs": [
     {
-      "name": "Business",
-      "source_files": "WJHomeModule/Classess/Business/*.{h.m}",
-      "public_header_files": "WJHomeModule/Classess/Business/*.h",
-      "dependencies": {
-        "WJBaseComponent": [
-
-        ]
-      },
-      "frameworks": [
-        "UIKit",
-        "Foundation"
-      ]
-    },
-    {
-      "name": "Category",
-      "source_files": "WJHomeModule/Classes/Category/*.{h,m}",
-      "public_header_files": "WJHomeModule/Classes/Category/*.h",
+      "name": "TargetAction",
+      "source_files": "WJHomeModule/Classes/TargetAction/*",
+      "public_header_files": "WJHomeModule/Classes/TargetAction/*.h",
       "dependencies": {
         "CTMediator": [
 
         ],
+        "WJHomeModule/Business": [
+
+        ]
+      }
+    },
+    {
+      "name": "Business",
+      "source_files": "WJHomeModule/Classes/Business/*.{h,m}",
+      "public_header_files": "WJHomeModule/Classes/Business/*.h",
+      "dependencies": {
         "WJBaseComponent": [
 
         ]
