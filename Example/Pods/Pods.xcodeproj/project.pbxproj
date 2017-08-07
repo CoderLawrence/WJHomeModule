@@ -11,7 +11,6 @@
 		0259199AC40D1935D021866B20AB8227 /* Pods-WJHomeModule_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A4021522ABDC411D34385C1392C5C20 /* Pods-WJHomeModule_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		025A23908383DD6F21EA9B5AE2A04AC5 /* NSDate+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3390DB23E2FA545444B168BF1E86D87C /* NSDate+Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		05DD04B69D01583F9D23790722B82E1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C1BCDC411F530C64BDEB05CA87735FE /* Foundation.framework */; };
-		0E6C712BA8B2A5029AA5CFAEFE2EBE64 /* Target_Standard.m in Sources */ = {isa = PBXBuildFile; fileRef = D45CDBDC62C3144766F561459B6D113E /* Target_Standard.m */; };
 		12BF9DF181ACB3FCC4ED53568D02C1FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C1BCDC411F530C64BDEB05CA87735FE /* Foundation.framework */; };
 		145D69C478E673E94FEB1DEF4546DA9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C1BCDC411F530C64BDEB05CA87735FE /* Foundation.framework */; };
 		1830F79489B221034AA8989B2A2BBC82 /* NSJSONSerialization+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = A63A56A2B22977B3EC0A1BC8B8290897 /* NSJSONSerialization+JSON.m */; };
@@ -20,6 +19,8 @@
 		1C4F35092211F226DC56EFD272A292BC /* UINavigationController+FDFullscreenPopGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = E70EF2EC1610784D8318ADF535372335 /* UINavigationController+FDFullscreenPopGesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1CF77D0DC64336DA1CE5C354668522DE /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = E6D634C8FFDA1B5B0C25019CACC897BF /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1E9036CEE9644A553B85910B7B17A535 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95188DE8C3FA738C6C50818A9C97670B /* UIKit.framework */; };
+		211DBC241F38BB5100BF59A1 /* Target_Standard.m in Sources */ = {isa = PBXBuildFile; fileRef = 211DBC211F38BB4600BF59A1 /* Target_Standard.m */; };
+		211DBC251F38BB5600BF59A1 /* Target_Standard.h in Headers */ = {isa = PBXBuildFile; fileRef = 211DBC201F38BB4600BF59A1 /* Target_Standard.h */; };
 		21BB792BB968742AF08FA938D377ACC4 /* CTMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE34408F48A5F805A195EF0D3100BC5 /* CTMediator-dummy.m */; };
 		26EABA351CE0AF617165ECA140936260 /* WJBaseComponent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF95EDF967C30849C8DC12AF496E316 /* WJBaseComponent-dummy.m */; };
 		2BB0B1A9E147296B2CA709A732C0B28D /* Macros.h in Headers */ = {isa = PBXBuildFile; fileRef = 3589D8BC85D0492F333162A3246F7867 /* Macros.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -42,7 +43,6 @@
 		776702E8743007AC3AFC1E7F76299616 /* FDFullscreenPopGesture-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B8A37155BFA8D37DA4A9E8FC4173EA3 /* FDFullscreenPopGesture-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C7FAA410A51B9F7CCD6D1A435E15502 /* NSObject+Guard.h in Headers */ = {isa = PBXBuildFile; fileRef = F857DC8FDAC07A36081B5E0CA1A2FC4F /* NSObject+Guard.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C806E6EBE711B0E8EA4B23DA6201262 /* NSJSONSerialization+JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 996122880ACC3363AB374B309FECDCFE /* NSJSONSerialization+JSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		87768BE8DDC65C036E45F99232D88D33 /* Target_Standard.h in Headers */ = {isa = PBXBuildFile; fileRef = 197A4F8A8E8CB539DACF54DFDB0F9EA0 /* Target_Standard.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		89776C11528C2123A173E05B77346068 /* UIViewController+RunDealloc.h in Headers */ = {isa = PBXBuildFile; fileRef = BC2DD53E57F86BEE7CE6BCECAF4CA4C1 /* UIViewController+RunDealloc.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D5773215C94391518B849E85AA1EC71 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 999853796BD894BE59F8E8EBF093283D /* SVProgressHUD.bundle */; };
 		90B494CA127147646E890884F981B9C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C1BCDC411F530C64BDEB05CA87735FE /* Foundation.framework */; };
@@ -153,29 +153,30 @@
 		05005DB8BCB6535597D1B7F165AD744A /* WJBaseComponent-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WJBaseComponent-umbrella.h"; sourceTree = "<group>"; };
 		0754C1BC71013F10D91B14D6982780A5 /* Pods-WJHomeModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WJHomeModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		091419AF36ACEC634413F33D26B018AC /* Pods-WJHomeModule_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WJHomeModule_Example-resources.sh"; sourceTree = "<group>"; };
-		0E80C4964C36A73931F1E8B10D98A809 /* CTMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CTMediator.modulemap; sourceTree = "<group>"; };
+		0E80C4964C36A73931F1E8B10D98A809 /* CTMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CTMediator.modulemap; sourceTree = "<group>"; };
 		0ECEE7826F31052972E1B13AF3625D36 /* Pods-WJHomeModule_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WJHomeModule_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		11BEAB1DE8439E822BECF7CFF24ED705 /* WJHomeModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WJHomeModule.xcconfig; sourceTree = "<group>"; };
-		12F481575969841F7BECD8CE9792A299 /* Pods_WJHomeModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WJHomeModule_Example.framework; path = "Pods-WJHomeModule_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12F481575969841F7BECD8CE9792A299 /* Pods_WJHomeModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WJHomeModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		184C8B4A976E334749169CED3BCCC59B /* Pods-WJHomeModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WJHomeModule_Example-dummy.m"; sourceTree = "<group>"; };
 		187B9E220124D38B4D8EBC5D1CC4161C /* WJBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WJBaseViewController.m; path = WJBaseComponent/Classes/Base/ViewController/WJBaseViewController.m; sourceTree = "<group>"; };
-		197A4F8A8E8CB539DACF54DFDB0F9EA0 /* Target_Standard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Target_Standard.h; sourceTree = "<group>"; };
 		1C36EBACC2D606A2094BA9430DB395CC /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
 		1C47CCDC4D6FCFDB1AB755862BF8E294 /* Pods-WJHomeModule_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WJHomeModule_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1C4BEA41D1F13480ACC4CAD895F7EFC3 /* FDFullscreenPopGesture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FDFullscreenPopGesture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E98D57482A54A2EE73268967710639C /* NSObject+Dictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Dictionary.m"; path = "WJBaseComponent/Classes/Category/NSObject+Dictionary.m"; sourceTree = "<group>"; };
 		20682F3C7F07D1DF4AA8CAE80499E286 /* Pods-WJHomeModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WJHomeModule_Tests-dummy.m"; sourceTree = "<group>"; };
-		2357938131F3F73826CBDD7C8777195D /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
+		211DBC201F38BB4600BF59A1 /* Target_Standard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Target_Standard.h; path = WJHomeModule/Classes/Target/Target_Standard.h; sourceTree = "<group>"; };
+		211DBC211F38BB4600BF59A1 /* Target_Standard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Target_Standard.m; path = WJHomeModule/Classes/Target/Target_Standard.m; sourceTree = "<group>"; };
+		2357938131F3F73826CBDD7C8777195D /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
 		2495A9AC1C16C2CA9DA3DCC392A20A81 /* WJHomeModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WJHomeModule-umbrella.h"; sourceTree = "<group>"; };
 		277D5E8D9D5737A2532F3E54093AF198 /* WJNavigationViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WJNavigationViewController.m; path = WJBaseComponent/Classes/Base/ViewController/WJNavigationViewController.m; sourceTree = "<group>"; };
-		29603BB63B3F77151E6FEB075D6E8582 /* Pods-WJHomeModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WJHomeModule_Example.modulemap"; sourceTree = "<group>"; };
+		29603BB63B3F77151E6FEB075D6E8582 /* Pods-WJHomeModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WJHomeModule_Example.modulemap"; sourceTree = "<group>"; };
 		2D328D5A1ABF8FF9675A62C92D9915AA /* CTMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-prefix.pch"; sourceTree = "<group>"; };
 		3390DB23E2FA545444B168BF1E86D87C /* NSDate+Extensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+Extensions.h"; path = "WJBaseComponent/Classes/Category/NSDate+Extensions.h"; sourceTree = "<group>"; };
 		3474BFD8511189244F639F432806EFE0 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3589D8BC85D0492F333162A3246F7867 /* Macros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Macros.h; path = WJBaseComponent/Classes/Macros/Macros.h; sourceTree = "<group>"; };
 		363CC7CCF89481FD9845F921A41D7FBB /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = CTMediator/CTMediator/CTMediator.h; sourceTree = "<group>"; };
 		36B68231C40B4704F9C87B2D145D31CD /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
-		3A7DAC8304124E98191A95F7B0AE144E /* WJBaseComponent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WJBaseComponent.framework; path = WJBaseComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A7DAC8304124E98191A95F7B0AE144E /* WJBaseComponent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WJBaseComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F0AEB17CFAC01098CA68C371F55074C /* Pods-WJHomeModule_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WJHomeModule_Example-frameworks.sh"; sourceTree = "<group>"; };
 		40F79A520946DE4509F4356591A0F074 /* NotificatonMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificatonMacros.h; path = WJBaseComponent/Classes/Macros/NotificatonMacros.h; sourceTree = "<group>"; };
 		4694955C39CAA0E4CDE14E10BAB23DC7 /* NSObject+Guard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Guard.m"; path = "WJBaseComponent/Classes/Category/NSObject+Guard.m"; sourceTree = "<group>"; };
@@ -184,7 +185,7 @@
 		48E23513EB94B1E243692CECB50301CF /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+FDFullscreenPopGesture.m"; path = "FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
 		4B362ACE7D8D2C50DA722F4D4BAD8FFC /* Pods-WJHomeModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WJHomeModule_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4C081933721FB1EB8C14EC9CAE114A21 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5607A69C242EA5B6467367262C83BFF0 /* WJBaseComponent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = WJBaseComponent.modulemap; sourceTree = "<group>"; };
+		5607A69C242EA5B6467367262C83BFF0 /* WJBaseComponent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = WJBaseComponent.modulemap; sourceTree = "<group>"; };
 		57E1FD01C610D1E792247D38C410D8A6 /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = CTMediator/CTMediator/CTMediator.m; sourceTree = "<group>"; };
 		5AE34408F48A5F805A195EF0D3100BC5 /* CTMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator-dummy.m"; sourceTree = "<group>"; };
 		5B8A37155BFA8D37DA4A9E8FC4173EA3 /* FDFullscreenPopGesture-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FDFullscreenPopGesture-umbrella.h"; sourceTree = "<group>"; };
@@ -206,13 +207,13 @@
 		886DE06A45FF9F97FAE46557C4030645 /* APIStringMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APIStringMacros.h; path = WJBaseComponent/Classes/Macros/APIStringMacros.h; sourceTree = "<group>"; };
 		8A4021522ABDC411D34385C1392C5C20 /* Pods-WJHomeModule_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WJHomeModule_Tests-umbrella.h"; sourceTree = "<group>"; };
 		8ACF24C04EB9CEF0C77A90923F9A5361 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
-		8E15BDA8C42B841D1FC00FB5C243E6D0 /* WJHomeModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = WJHomeModule.modulemap; sourceTree = "<group>"; };
-		8E15EC28FBDC8569D3D53DDADA70498A /* FDFullscreenPopGesture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FDFullscreenPopGesture.framework; path = FDFullscreenPopGesture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E15BDA8C42B841D1FC00FB5C243E6D0 /* WJHomeModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = WJHomeModule.modulemap; sourceTree = "<group>"; };
+		8E15EC28FBDC8569D3D53DDADA70498A /* FDFullscreenPopGesture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FDFullscreenPopGesture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E95B01415750C56D656D8CACFAC92EA /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
 		9035E71ACADC554510AD50AB3B029ED5 /* FDFullscreenPopGesture.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FDFullscreenPopGesture.xcconfig; sourceTree = "<group>"; };
 		90D47D55918947AB5229DCCCE091137C /* WJHomeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WJHomeViewController.m; sourceTree = "<group>"; };
 		91E5E829AB3EB9DE6964A7AF0D0F3AAD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95188DE8C3FA738C6C50818A9C97670B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		996122880ACC3363AB374B309FECDCFE /* NSJSONSerialization+JSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSJSONSerialization+JSON.h"; path = "WJBaseComponent/Classes/Category/NSJSONSerialization+JSON.h"; sourceTree = "<group>"; };
 		999853796BD894BE59F8E8EBF093283D /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
@@ -223,7 +224,7 @@
 		A3F08994BF7CB53C486E982B64AAB8B1 /* Pods-WJHomeModule_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WJHomeModule_Example-umbrella.h"; sourceTree = "<group>"; };
 		A5D61C77F0FDECB9E061D7097695D1AD /* WJHomeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WJHomeViewController.h; sourceTree = "<group>"; };
 		A63A56A2B22977B3EC0A1BC8B8290897 /* NSJSONSerialization+JSON.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSJSONSerialization+JSON.m"; path = "WJBaseComponent/Classes/Category/NSJSONSerialization+JSON.m"; sourceTree = "<group>"; };
-		A7E3FBEE59E6713CADD7347532AA3415 /* WJHomeModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WJHomeModule.framework; path = WJHomeModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7E3FBEE59E6713CADD7347532AA3415 /* WJHomeModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WJHomeModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF6C521110F736B6FEB077337FF884A8 /* Pods-WJHomeModule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WJHomeModule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		AFCCED4A2DCFF74B2AF89DEF7032040A /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
 		B0F8DA160EA0355BC7AD2E1D964C5D19 /* NSData+Extensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+Extensions.m"; path = "WJBaseComponent/Classes/Category/NSData+Extensions.m"; sourceTree = "<group>"; };
@@ -234,26 +235,25 @@
 		BC2DD53E57F86BEE7CE6BCECAF4CA4C1 /* UIViewController+RunDealloc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+RunDealloc.h"; path = "WJBaseComponent/Classes/Category/UIViewController+RunDealloc.h"; sourceTree = "<group>"; };
 		BCD0C32194F064228EF69D25F93E130F /* NSTimer+Addition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSTimer+Addition.m"; path = "WJBaseComponent/Classes/Category/NSTimer+Addition.m"; sourceTree = "<group>"; };
 		BD8DBFB7F39EB1066D89C5427AC185C7 /* UtilsMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UtilsMacros.h; path = WJBaseComponent/Classes/Macros/UtilsMacros.h; sourceTree = "<group>"; };
-		C425A13C2CAAD93289D3370865590516 /* Pods_WJHomeModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WJHomeModule_Tests.framework; path = "Pods-WJHomeModule_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C425A13C2CAAD93289D3370865590516 /* Pods_WJHomeModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WJHomeModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBFD268F80916A74320A7079B2062410 /* NSTimer+Addition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSTimer+Addition.h"; path = "WJBaseComponent/Classes/Category/NSTimer+Addition.h"; sourceTree = "<group>"; };
 		CC006272E4124EA04DBDDC0C02387D79 /* NSObject+Dictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Dictionary.h"; path = "WJBaseComponent/Classes/Category/NSObject+Dictionary.h"; sourceTree = "<group>"; };
 		CC4B3EC58F3D06CBA4D3239041688C16 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCF95EDF967C30849C8DC12AF496E316 /* WJBaseComponent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WJBaseComponent-dummy.m"; sourceTree = "<group>"; };
-		CD3A17EEE59B9E53BF0F587863915A22 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CTMediator.framework; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3A17EEE59B9E53BF0F587863915A22 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF3AF9A4A9186DF80B78DFB45F345961 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D45CDBDC62C3144766F561459B6D113E /* Target_Standard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Target_Standard.m; sourceTree = "<group>"; };
 		D584414974A6306E450AB2720F78716A /* WJBaseComponent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WJBaseComponent-prefix.pch"; sourceTree = "<group>"; };
-		D6AFEBBFC00FAFDA8C82ED351C2EA2DB /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVProgressHUD.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6AFEBBFC00FAFDA8C82ED351C2EA2DB /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6D634C8FFDA1B5B0C25019CACC897BF /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
 		E70EF2EC1610784D8318ADF535372335 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+FDFullscreenPopGesture.h"; path = "FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
 		E710921751D07DAF92D66BE7286D5B7E /* FDFullscreenPopGesture-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FDFullscreenPopGesture-prefix.pch"; sourceTree = "<group>"; };
-		EDADD3760846B1BED8AEF1E2210B7954 /* Pods-WJHomeModule_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WJHomeModule_Tests.modulemap"; sourceTree = "<group>"; };
+		EDADD3760846B1BED8AEF1E2210B7954 /* Pods-WJHomeModule_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WJHomeModule_Tests.modulemap"; sourceTree = "<group>"; };
 		F2D5CD52ECD6F87D71E984A9E9E98D20 /* UIImage+Extensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Extensions.m"; path = "WJBaseComponent/Classes/Category/UIImage+Extensions.m"; sourceTree = "<group>"; };
 		F857DC8FDAC07A36081B5E0CA1A2FC4F /* NSObject+Guard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Guard.h"; path = "WJBaseComponent/Classes/Category/NSObject+Guard.h"; sourceTree = "<group>"; };
 		FA88151DFE97B08C32374DA62E902E73 /* Pods-WJHomeModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WJHomeModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FCAAF0E7630EA4758043F6348242E613 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDAC53F6898081285A4353266493037E /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
-		FFD6A5799C781740DE687B3AD4C0D50B /* FDFullscreenPopGesture.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FDFullscreenPopGesture.modulemap; sourceTree = "<group>"; };
+		FFD6A5799C781740DE687B3AD4C0D50B /* FDFullscreenPopGesture.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FDFullscreenPopGesture.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -329,7 +329,6 @@
 			children = (
 				EA13E4EEABF1CA025D8E26BBC06812EF /* Classes */,
 			);
-			name = WJHomeModule;
 			path = WJHomeModule;
 			sourceTree = "<group>";
 		};
@@ -339,7 +338,6 @@
 				A5D61C77F0FDECB9E061D7097695D1AD /* WJHomeViewController.h */,
 				90D47D55918947AB5229DCCCE091137C /* WJHomeViewController.m */,
 			);
-			name = Business;
 			path = Business;
 			sourceTree = "<group>";
 		};
@@ -359,7 +357,6 @@
 			children = (
 				14BF5356EE0D5D7C2CA447F4E4D4C515 /* Business */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -429,10 +426,7 @@
 		343D0675E57769C8CA259B9225A9BB55 /* TargetAction */ = {
 			isa = PBXGroup;
 			children = (
-				197A4F8A8E8CB539DACF54DFDB0F9EA0 /* Target_Standard.h */,
-				D45CDBDC62C3144766F561459B6D113E /* Target_Standard.m */,
 			);
-			name = TargetAction;
 			path = TargetAction;
 			sourceTree = "<group>";
 		};
@@ -443,7 +437,6 @@
 				57E1FD01C610D1E792247D38C410D8A6 /* CTMediator.m */,
 				58FBBD970CF3530FA1FAC6DDEA7810FD /* Support Files */,
 			);
-			name = CTMediator;
 			path = CTMediator;
 			sourceTree = "<group>";
 		};
@@ -517,7 +510,6 @@
 				4853C2000049E468FD20E7ED844DA583 /* Macros */,
 				4412751BEDC317F9C03CEDA42F6286ED /* Support Files */,
 			);
-			name = WJBaseComponent;
 			path = WJBaseComponent;
 			sourceTree = "<group>";
 		};
@@ -617,6 +609,8 @@
 		A7E20493491C17F662BB77D153FD5DA0 /* WJHomeModule */ = {
 			isa = PBXGroup;
 			children = (
+				211DBC201F38BB4600BF59A1 /* Target_Standard.h */,
+				211DBC211F38BB4600BF59A1 /* Target_Standard.m */,
 				A61D188F0908DA6B0236067DD3E6D901 /* Business */,
 				2E54EBE6963A6DA5396AE248842CE2A8 /* Support Files */,
 				20B532545DCB28A40416834774A20C2E /* TargetAction */,
@@ -630,7 +624,6 @@
 			children = (
 				208CB69FD50BEE3DE464716EE90A83EA /* Classes */,
 			);
-			name = WJHomeModule;
 			path = WJHomeModule;
 			sourceTree = "<group>";
 		};
@@ -664,7 +657,6 @@
 				48E23513EB94B1E243692CECB50301CF /* UINavigationController+FDFullscreenPopGesture.m */,
 				7D2BDC231B2594CF9C3B9D82B68E05D4 /* Support Files */,
 			);
-			name = FDFullscreenPopGesture;
 			path = FDFullscreenPopGesture;
 			sourceTree = "<group>";
 		};
@@ -673,7 +665,6 @@
 			children = (
 				343D0675E57769C8CA259B9225A9BB55 /* TargetAction */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -699,7 +690,6 @@
 				8C79FACEE4DEA85CA4271113C07875E5 /* Resources */,
 				CB5903D05ABC9F34402429F3F38B9305 /* Support Files */,
 			);
-			name = SVProgressHUD;
 			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
@@ -727,7 +717,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87768BE8DDC65C036E45F99232D88D33 /* Target_Standard.h in Headers */,
+				211DBC251F38BB5600BF59A1 /* Target_Standard.h in Headers */,
 				D38182EC2A12E5F83198DFBCA6C3AF74 /* WJHomeModule-umbrella.h in Headers */,
 				EFFAF37F63EDFB7246C372D5405E13DF /* WJHomeViewController.h in Headers */,
 			);
@@ -1029,7 +1019,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E6C712BA8B2A5029AA5CFAEFE2EBE64 /* Target_Standard.m in Sources */,
+				211DBC241F38BB5100BF59A1 /* Target_Standard.m in Sources */,
 				9F0970930AFF28CBF8B431F2907CCFB8 /* WJHomeModule-dummy.m in Sources */,
 				B4547D2E46870B701EF19EC06A3193E6 /* WJHomeViewController.m in Sources */,
 			);

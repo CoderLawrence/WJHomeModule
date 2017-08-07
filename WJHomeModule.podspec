@@ -36,11 +36,11 @@ TODO: Add long description of the pod here.
     business.frameworks = 'UIKit'
   end
 
-  s.subspec 'TargetAction' do |targetAction|
-    targetAction.source_files = 'WJHomeModule/Classes/TargetAction/*'
-    targetAction.public_header_files = 'WJHomeModule/Classes/TargetAction/*.h'
-    targetAction.dependency 'CTMediator'
-    targetAction.dependency 'WJHomeModule/Business'
+  s.subspec 'Target' do |target|
+    target.source_files = 'WJHomeModule/Classes/Target/*.{h,m}'
+    target.public_header_files = 'WJHomeModule/Classess/Target/*.h'
+    target.dependency 'CTMediator'
+    target.dependency 'WJHomeModule/Business'
   end
 
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
