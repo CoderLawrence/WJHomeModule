@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		019B3F821F359E847C7EF7A7DA5E4166 /* Pods-WJHomeModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20682F3C7F07D1DF4AA8CAE80499E286 /* Pods-WJHomeModule_Tests-dummy.m */; };
+		01AA7EFCB2DB71A8799D2B2FC6CE505A /* Pods-WJHomeModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C8B4A976E334749169CED3BCCC59B /* Pods-WJHomeModule_Example-dummy.m */; };
+		0259199AC40D1935D021866B20AB8227 /* Pods-WJHomeModule_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A4021522ABDC411D34385C1392C5C20 /* Pods-WJHomeModule_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43AFC7DD2A93757A225D13BBE9863A9C /* WJHomeModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 351157994FA9D2502D5AE40DC842E0F4 /* WJHomeModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F3DB810E2F8F04A27A15ECA65AF161E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8EF5FC0809C47AB566275412A1E32E5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		92FF2BF38AC9E2A26D21404348C216F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A96D88EB0C253DA1BD68F9E64929591D /* WJHomeModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D03AB811F742A5BA39E8323B529E52 /* WJHomeModule-dummy.m */; };
+		EBB069C1577561AC71665E89A40DB00D /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0FAFCC8316A56195535835A1551A05 /* ReplaceMe.m */; };
+		F6485972C9609A502CE83CC6894B21FC /* Pods-WJHomeModule_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3F08994BF7CB53C486E982B64AAB8B1 /* Pods-WJHomeModule_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC1D0266DC220C9D4285FFA67770CBF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6E1A315532000280086DF23793E4B99;
+			remoteInfo = WJHomeModule;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0754C1BC71013F10D91B14D6982780A5 /* Pods-WJHomeModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WJHomeModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		091419AF36ACEC634413F33D26B018AC /* Pods-WJHomeModule_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WJHomeModule_Example-resources.sh"; sourceTree = "<group>"; };
+		0ECEE7826F31052972E1B13AF3625D36 /* Pods-WJHomeModule_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WJHomeModule_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		184C8B4A976E334749169CED3BCCC59B /* Pods-WJHomeModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WJHomeModule_Example-dummy.m"; sourceTree = "<group>"; };
+		1B0FAFCC8316A56195535835A1551A05 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		1C47CCDC4D6FCFDB1AB755862BF8E294 /* Pods-WJHomeModule_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WJHomeModule_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1C570218C766632F3B5EB3850B1C8DDD /* WJHomeModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WJHomeModule.xcconfig; sourceTree = "<group>"; };
+		20682F3C7F07D1DF4AA8CAE80499E286 /* Pods-WJHomeModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WJHomeModule_Tests-dummy.m"; sourceTree = "<group>"; };
+		29603BB63B3F77151E6FEB075D6E8582 /* Pods-WJHomeModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WJHomeModule_Example.modulemap"; sourceTree = "<group>"; };
+		351157994FA9D2502D5AE40DC842E0F4 /* WJHomeModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WJHomeModule-umbrella.h"; sourceTree = "<group>"; };
+		3F0AEB17CFAC01098CA68C371F55074C /* Pods-WJHomeModule_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WJHomeModule_Example-frameworks.sh"; sourceTree = "<group>"; };
+		48C273F41272778487E5942401D6A79F /* Pods-WJHomeModule_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WJHomeModule_Tests-resources.sh"; sourceTree = "<group>"; };
+		4B362ACE7D8D2C50DA722F4D4BAD8FFC /* Pods-WJHomeModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WJHomeModule_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5625F10EB570FEF5963A9E18417F8BAC /* WJHomeModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = WJHomeModule.modulemap; sourceTree = "<group>"; };
+		65551D8216A77C47477382A02DD27691 /* Pods-WJHomeModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WJHomeModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		70D124D6E602A6A44FBD3EE7B72DF626 /* WJHomeModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WJHomeModule-prefix.pch"; sourceTree = "<group>"; };
+		89FF2B333386A85157F11BCE4540CDBA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A4021522ABDC411D34385C1392C5C20 /* Pods-WJHomeModule_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WJHomeModule_Tests-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C7F206A58A819341908CF2EC188A335 /* Pods-WJHomeModule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WJHomeModule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9F5DF34FCA9C6A98D5E513AAFBF8FC34 /* Pods-WJHomeModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WJHomeModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A3F08994BF7CB53C486E982B64AAB8B1 /* Pods-WJHomeModule_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WJHomeModule_Example-umbrella.h"; sourceTree = "<group>"; };
+		AA3040DA6405D278DD78C41680269130 /* WJHomeModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WJHomeModule.framework; path = WJHomeModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF6C521110F736B6FEB077337FF884A8 /* Pods-WJHomeModule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WJHomeModule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B2D03AB811F742A5BA39E8323B529E52 /* WJHomeModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WJHomeModule-dummy.m"; sourceTree = "<group>"; };
+		CF3AF9A4A9186DF80B78DFB45F345961 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D83E0F116DBC0958B0A60E8EC4EE1C01 /* Pods_WJHomeModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WJHomeModule_Example.framework; path = "Pods-WJHomeModule_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDADD3760846B1BED8AEF1E2210B7954 /* Pods-WJHomeModule_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WJHomeModule_Tests.modulemap"; sourceTree = "<group>"; };
+		F8AAE747B6D084277A292175A2B82F75 /* Pods_WJHomeModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WJHomeModule_Tests.framework; path = "Pods-WJHomeModule_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA88151DFE97B08C32374DA62E902E73 /* Pods-WJHomeModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WJHomeModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FCAAF0E7630EA4758043F6348242E613 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4486B8635D17A0F4781E426EC905C736 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EF5FC0809C47AB566275412A1E32E5B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60E8EB0F4A3EC9EEA93D38CF4B6C0EC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92FF2BF38AC9E2A26D21404348C216F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7A577E4A6E97E54649B0046823DE695 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F3DB810E2F8F04A27A15ECA65AF161E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09336D4606A554BDFD3332C34471876D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62C5EACF6FB149895668558C8ED3E3B8 /* WJHomeModule */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		30A329685542B941EE17F40437C78ACE /* Pods-WJHomeModule_Example */ = {
+			isa = PBXGroup;
+			children = (
+				FCAAF0E7630EA4758043F6348242E613 /* Info.plist */,
+				29603BB63B3F77151E6FEB075D6E8582 /* Pods-WJHomeModule_Example.modulemap */,
+				0754C1BC71013F10D91B14D6982780A5 /* Pods-WJHomeModule_Example-acknowledgements.markdown */,
+				9C7F206A58A819341908CF2EC188A335 /* Pods-WJHomeModule_Example-acknowledgements.plist */,
+				184C8B4A976E334749169CED3BCCC59B /* Pods-WJHomeModule_Example-dummy.m */,
+				3F0AEB17CFAC01098CA68C371F55074C /* Pods-WJHomeModule_Example-frameworks.sh */,
+				091419AF36ACEC634413F33D26B018AC /* Pods-WJHomeModule_Example-resources.sh */,
+				A3F08994BF7CB53C486E982B64AAB8B1 /* Pods-WJHomeModule_Example-umbrella.h */,
+				FA88151DFE97B08C32374DA62E902E73 /* Pods-WJHomeModule_Example.debug.xcconfig */,
+				4B362ACE7D8D2C50DA722F4D4BAD8FFC /* Pods-WJHomeModule_Example.release.xcconfig */,
+			);
+			name = "Pods-WJHomeModule_Example";
+			path = "Target Support Files/Pods-WJHomeModule_Example";
+			sourceTree = "<group>";
+		};
+		49C0B7F1B07485F7B7F245B6402C6C05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D83E0F116DBC0958B0A60E8EC4EE1C01 /* Pods_WJHomeModule_Example.framework */,
+				F8AAE747B6D084277A292175A2B82F75 /* Pods_WJHomeModule_Tests.framework */,
+				AA3040DA6405D278DD78C41680269130 /* WJHomeModule.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62C5EACF6FB149895668558C8ED3E3B8 /* WJHomeModule */ = {
+			isa = PBXGroup;
+			children = (
+				783D1CD519E58F248A76DAE451066D8E /* Support Files */,
+				F656B26F744419815AEBD0F4C6079B90 /* WJHomeModule */,
+			);
+			name = WJHomeModule;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		783D1CD519E58F248A76DAE451066D8E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				89FF2B333386A85157F11BCE4540CDBA /* Info.plist */,
+				5625F10EB570FEF5963A9E18417F8BAC /* WJHomeModule.modulemap */,
+				1C570218C766632F3B5EB3850B1C8DDD /* WJHomeModule.xcconfig */,
+				B2D03AB811F742A5BA39E8323B529E52 /* WJHomeModule-dummy.m */,
+				70D124D6E602A6A44FBD3EE7B72DF626 /* WJHomeModule-prefix.pch */,
+				351157994FA9D2502D5AE40DC842E0F4 /* WJHomeModule-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WJHomeModule";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				09336D4606A554BDFD3332C34471876D /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				49C0B7F1B07485F7B7F245B6402C6C05 /* Products */,
+				B16DB6E75BE08087A2D0D73C278E6384 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9D6402985402D06989D3276BA7F27628 /* Pods-WJHomeModule_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CF3AF9A4A9186DF80B78DFB45F345961 /* Info.plist */,
+				EDADD3760846B1BED8AEF1E2210B7954 /* Pods-WJHomeModule_Tests.modulemap */,
+				1C47CCDC4D6FCFDB1AB755862BF8E294 /* Pods-WJHomeModule_Tests-acknowledgements.markdown */,
+				AF6C521110F736B6FEB077337FF884A8 /* Pods-WJHomeModule_Tests-acknowledgements.plist */,
+				20682F3C7F07D1DF4AA8CAE80499E286 /* Pods-WJHomeModule_Tests-dummy.m */,
+				0ECEE7826F31052972E1B13AF3625D36 /* Pods-WJHomeModule_Tests-frameworks.sh */,
+				48C273F41272778487E5942401D6A79F /* Pods-WJHomeModule_Tests-resources.sh */,
+				8A4021522ABDC411D34385C1392C5C20 /* Pods-WJHomeModule_Tests-umbrella.h */,
+				65551D8216A77C47477382A02DD27691 /* Pods-WJHomeModule_Tests.debug.xcconfig */,
+				9F5DF34FCA9C6A98D5E513AAFBF8FC34 /* Pods-WJHomeModule_Tests.release.xcconfig */,
+			);
+			name = "Pods-WJHomeModule_Tests";
+			path = "Target Support Files/Pods-WJHomeModule_Tests";
+			sourceTree = "<group>";
+		};
+		A783B23D4C5220BCA5DC63154AF23421 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1B0FAFCC8316A56195535835A1551A05 /* ReplaceMe.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B16DB6E75BE08087A2D0D73C278E6384 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				30A329685542B941EE17F40437C78ACE /* Pods-WJHomeModule_Example */,
+				9D6402985402D06989D3276BA7F27628 /* Pods-WJHomeModule_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F656B26F744419815AEBD0F4C6079B90 /* WJHomeModule */ = {
+			isa = PBXGroup;
+			children = (
+				A783B23D4C5220BCA5DC63154AF23421 /* Classes */,
+			);
+			name = WJHomeModule;
+			path = WJHomeModule;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		67FC884A283D0C30D110DBD1C02B1E5D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6485972C9609A502CE83CC6894B21FC /* Pods-WJHomeModule_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF2CA94B2C862ACD8825BA867CF7CF4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0259199AC40D1935D021866B20AB8227 /* Pods-WJHomeModule_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF50160EC8768DFD3BF5A2A5A8FB07BB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43AFC7DD2A93757A225D13BBE9863A9C /* WJHomeModule-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8222A2A9FCEB847C4504F6908AD81059 /* Pods-WJHomeModule_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F58D00E8A64F3025656A02BD3D78D91E /* Build configuration list for PBXNativeTarget "Pods-WJHomeModule_Example" */;
+			buildPhases = (
+				7D6E1124C43D2257C7165D030DF33C96 /* Sources */,
+				60E8EB0F4A3EC9EEA93D38CF4B6C0EC6 /* Frameworks */,
+				67FC884A283D0C30D110DBD1C02B1E5D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F828863E3C85D7AA2C7F864AEEEC6B89 /* PBXTargetDependency */,
+			);
+			name = "Pods-WJHomeModule_Example";
+			productName = "Pods-WJHomeModule_Example";
+			productReference = D83E0F116DBC0958B0A60E8EC4EE1C01 /* Pods_WJHomeModule_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C45D82034E5F4E36E7F59CC62F5338D7 /* Pods-WJHomeModule_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 825D703F9DBB64E5CB19E85404C5BCDD /* Build configuration list for PBXNativeTarget "Pods-WJHomeModule_Tests" */;
+			buildPhases = (
+				2734DD53DCBA9BB8E7A2DA7D333E6BC9 /* Sources */,
+				4486B8635D17A0F4781E426EC905C736 /* Frameworks */,
+				BDF2CA94B2C862ACD8825BA867CF7CF4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-WJHomeModule_Tests";
+			productName = "Pods-WJHomeModule_Tests";
+			productReference = F8AAE747B6D084277A292175A2B82F75 /* Pods_WJHomeModule_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C6E1A315532000280086DF23793E4B99 /* WJHomeModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5FC1E7D3122C50EDED3C562AC7A4249 /* Build configuration list for PBXNativeTarget "WJHomeModule" */;
+			buildPhases = (
+				90F46BD405A4C3D5E69588166C72AF7A /* Sources */,
+				A7A577E4A6E97E54649B0046823DE695 /* Frameworks */,
+				CF50160EC8768DFD3BF5A2A5A8FB07BB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WJHomeModule;
+			productName = WJHomeModule;
+			productReference = AA3040DA6405D278DD78C41680269130 /* WJHomeModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 49C0B7F1B07485F7B7F245B6402C6C05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8222A2A9FCEB847C4504F6908AD81059 /* Pods-WJHomeModule_Example */,
+				C45D82034E5F4E36E7F59CC62F5338D7 /* Pods-WJHomeModule_Tests */,
+				C6E1A315532000280086DF23793E4B99 /* WJHomeModule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2734DD53DCBA9BB8E7A2DA7D333E6BC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				019B3F821F359E847C7EF7A7DA5E4166 /* Pods-WJHomeModule_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D6E1124C43D2257C7165D030DF33C96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01AA7EFCB2DB71A8799D2B2FC6CE505A /* Pods-WJHomeModule_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90F46BD405A4C3D5E69588166C72AF7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBB069C1577561AC71665E89A40DB00D /* ReplaceMe.m in Sources */,
+				A96D88EB0C253DA1BD68F9E64929591D /* WJHomeModule-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F828863E3C85D7AA2C7F864AEEEC6B89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WJHomeModule;
+			target = C6E1A315532000280086DF23793E4B99 /* WJHomeModule */;
+			targetProxy = AC1D0266DC220C9D4285FFA67770CBF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0513DE3EF54F6F3ED86CD80EF0C22D8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA88151DFE97B08C32374DA62E902E73 /* Pods-WJHomeModule_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WJHomeModule_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WJHomeModule_Example/Pods-WJHomeModule_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WJHomeModule_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4308B5D7EB41FB9887201362978BDFAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F5DF34FCA9C6A98D5E513AAFBF8FC34 /* Pods-WJHomeModule_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WJHomeModule_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WJHomeModule_Tests/Pods-WJHomeModule_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WJHomeModule_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7807FCECE020C9851DA9151F78498690 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B362ACE7D8D2C50DA722F4D4BAD8FFC /* Pods-WJHomeModule_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WJHomeModule_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WJHomeModule_Example/Pods-WJHomeModule_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WJHomeModule_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F59599DF285BF0C05586AC78F5E6DF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65551D8216A77C47477382A02DD27691 /* Pods-WJHomeModule_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WJHomeModule_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WJHomeModule_Tests/Pods-WJHomeModule_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WJHomeModule_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D8D949589F474BBF5ED343D0E40FF813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C570218C766632F3B5EB3850B1C8DDD /* WJHomeModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WJHomeModule/WJHomeModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WJHomeModule/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WJHomeModule/WJHomeModule.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = WJHomeModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EA6F4552675282AFAB509DAF36D2B31B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C570218C766632F3B5EB3850B1C8DDD /* WJHomeModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WJHomeModule/WJHomeModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WJHomeModule/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WJHomeModule/WJHomeModule.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = WJHomeModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		825D703F9DBB64E5CB19E85404C5BCDD /* Build configuration list for PBXNativeTarget "Pods-WJHomeModule_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F59599DF285BF0C05586AC78F5E6DF6 /* Debug */,
+				4308B5D7EB41FB9887201362978BDFAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F58D00E8A64F3025656A02BD3D78D91E /* Build configuration list for PBXNativeTarget "Pods-WJHomeModule_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0513DE3EF54F6F3ED86CD80EF0C22D8A /* Debug */,
+				7807FCECE020C9851DA9151F78498690 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5FC1E7D3122C50EDED3C562AC7A4249 /* Build configuration list for PBXNativeTarget "WJHomeModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8D949589F474BBF5ED343D0E40FF813 /* Debug */,
+				EA6F4552675282AFAB509DAF36D2B31B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module WJHomeModule {
+  umbrella header "WJHomeModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

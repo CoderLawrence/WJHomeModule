@@ -1,0 +1,6 @@
+framework module Pods_WJHomeModule_Tests {
+  umbrella header "Pods-WJHomeModule_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - WJHomeModule (0.1.0)
+
+DEPENDENCIES:
+  - WJHomeModule (from `../`)
+
+EXTERNAL SOURCES:
+  WJHomeModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WJHomeModule: 3906f57d3fbdce101c48f15605ab019098244718
+
+PODFILE CHECKSUM: 5ec5c12b1a927836285ac0fc3f72e347e1f0955b
+
+COCOAPODS: 1.2.0
