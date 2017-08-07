@@ -1,7 +1,7 @@
 {
   "name": "WJHomeModule",
   "version": "0.1.0",
-  "summary": "A short description of WJHomeModule.",
+  "summary": "私有组件化工程的首页组件模块",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/CoderLawrence/WJHomeModule",
   "license": {
@@ -18,5 +18,34 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "WJHomeModule/Classes/**/*"
+  "subspecs": [
+    {
+      "name": "Business",
+      "source_files": "WJHomeModule/Classess/Business/*.{h.m}",
+      "public_header_files": "WJHomeModule/Classess/Business/*.h",
+      "dependencies": {
+        "WJBaseComponent": [
+
+        ]
+      },
+      "frameworks": [
+        "UIKit",
+        "Foundation"
+      ]
+    },
+    {
+      "name": "Category",
+      "source_files": "WJHomeModule/Classes/Category/*.{h,m}",
+      "public_header_files": "WJHomeModule/Classes/Category/*.h",
+      "dependencies": {
+        "CTMediator": [
+
+        ],
+        "WJBaseComponent": [
+
+        ]
+      },
+      "frameworks": "UIKit"
+    }
+  ]
 }

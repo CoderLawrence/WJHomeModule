@@ -1,5 +1,27 @@
 PODS:
-  - WJHomeModule (0.1.0)
+  - CTMediator (12)
+  - FDFullscreenPopGesture (1.1)
+  - SVProgressHUD (2.1.2)
+  - WJBaseComponent (0.3.0):
+    - WJBaseComponent/Base (= 0.3.0)
+    - WJBaseComponent/Category (= 0.3.0)
+    - WJBaseComponent/Macros (= 0.3.0)
+  - WJBaseComponent/Base (0.3.0):
+    - WJBaseComponent/Base/ViewController (= 0.3.0)
+  - WJBaseComponent/Base/ViewController (0.3.0):
+    - FDFullscreenPopGesture (~> 1.1)
+    - SVProgressHUD
+    - WJBaseComponent/Macros
+  - WJBaseComponent/Category (0.3.0)
+  - WJBaseComponent/Macros (0.3.0)
+  - WJHomeModule (0.1.0):
+    - WJHomeModule/Business (= 0.1.0)
+    - WJHomeModule/Category (= 0.1.0)
+  - WJHomeModule/Business (0.1.0):
+    - WJBaseComponent
+  - WJHomeModule/Category (0.1.0):
+    - CTMediator
+    - WJBaseComponent
 
 DEPENDENCIES:
   - WJHomeModule (from `../`)
@@ -9,8 +31,12 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WJHomeModule: 3906f57d3fbdce101c48f15605ab019098244718
+  CTMediator: 83043d198b7ea73214d53375adfdd7f60edd4c1a
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  WJBaseComponent: 95184ca4a86fc24d3e9428b1b5d4006631137950
+  WJHomeModule: 2a38d98c7d9b4112eb472b00b7e3649b26e9910c
 
-PODFILE CHECKSUM: 5ec5c12b1a927836285ac0fc3f72e347e1f0955b
+PODFILE CHECKSUM: cb7fa61800ef4d4ae52d147a4db2e8bd25683fa1
 
 COCOAPODS: 1.2.0

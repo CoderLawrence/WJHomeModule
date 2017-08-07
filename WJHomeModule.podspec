@@ -26,11 +26,26 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'CoderLawrence' => '791785648@qq.com' }
   s.source           = { :git => 'https://github.com/CoderLawrence/WJHomeModule.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'WJHomeModule/Classes/**/*'
+  s.subspec 'Business' do |business|
+    business.source_files = 'WJHomeModule/Classess/Business/*.{h.m}'
+    business.public_header_files = 'WJHomeModule/Classess/Business/*.h'
+    business.dependency 'WJBaseComponent'
+    business.frameworks = 'UIKit', 'Foundation'
+  end
+
+  s.subspec 'Category' do |category|
+    category.source_files = 'WJHomeModule/Classes/Category/*.{h,m}'
+    category.public_header_files = 'WJHomeModule/Classes/Category/*.h'
+    category.dependency 'CTMediator'
+    category.dependency 'WJBaseComponent'
+    category.frameworks = 'UIKit'
+  end
+
+  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+
+  #s.source_files = 'WJHomeModule/Classes/**/*'
   
   # s.resource_bundles = {
   #   'WJHomeModule' => ['WJHomeModule/Assets/*.png']
