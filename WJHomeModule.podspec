@@ -38,7 +38,7 @@ TODO: Add long description of the pod here.
 
   s.subspec 'Target' do |target|
     target.source_files = 'WJHomeModule/Classes/Target/*.{h,m}'
-    target.public_header_files = 'WJHomeModule/Classess/Target/*.h'
+    target.public_header_files = 'WJHomeModule/Classes/Target/*.h'
     target.dependency 'CTMediator'
     target.dependency 'WJHomeModule/Business'
   end
