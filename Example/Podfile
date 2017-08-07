@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WJHomeModule_Example' do
+  pod 'WJHomeModule', :path => '../'
+
+  target 'WJHomeModule_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
