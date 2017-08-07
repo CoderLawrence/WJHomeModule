@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WJHomeModule'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = '私有组件化工程的首页组件模块'
 
 # This description is used to generate tags and improve search results.
